@@ -69,6 +69,8 @@ nav ul li a {
   opacity: 0.8;
 }
 
+/* Tea Of the month Articles */
+
 #articles-title {
   display: flex;
   flex-direction: column;
@@ -90,12 +92,69 @@ nav ul li a {
   height: 200px;
 }
 
-footer {
+/* locations */
+
+#locations {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
   position: relative;
+  top: 70px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+}
+
+.locations > h2 {
+  padding: 30px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location-card {
+  background-color: black;
+  opacity: 0.8;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Footer */
+
+footer {
+   position: relative;
+  top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 70px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 30px;
+  height: 200px;
 }
 
 .contact {
@@ -109,6 +168,9 @@ footer {
 }
 
 .copyright {
+  display: flex;
+  padding-top: 20px;
+  margin-top: 20px;
   position: absolute;
   bottom: 0;
   left: 20px;
